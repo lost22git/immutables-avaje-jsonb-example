@@ -9,5 +9,6 @@ pluginManagement {
   }
 }
 
-rootProject.name = "gradle-project-template"
+rootProject.name = "root"
+include 'app'
 

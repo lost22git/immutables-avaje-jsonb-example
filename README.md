@@ -1,1 +1,1 @@
-# A self-used gradle project template
+# an example for testing immutable-value works with avaje-jsonb
