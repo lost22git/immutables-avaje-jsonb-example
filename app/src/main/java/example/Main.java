@@ -3,10 +3,12 @@ package example;
 import example.model.ImmutableLink;
 import example.model.ImmutableVideo;
 import example.model.VideoCodec;
+import io.avaje.jsonb.Json;
 import io.avaje.jsonb.Jsonb;
 
 import java.net.URI;
 
+@Json.Import({ImmutableVideo.class, ImmutableLink.class})
 public class Main {
 
     private static final Jsonb JSONB;
