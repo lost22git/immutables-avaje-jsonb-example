@@ -9,3 +9,7 @@ dependencies {
   annotationProcessor(libs.avaje.jsonb.generator)
   compileOnly(libs.jakarta.annotation)
 }
+
+application {
+  mainClass = "example.Main"
+}

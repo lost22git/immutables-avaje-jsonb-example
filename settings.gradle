@@ -9,6 +9,6 @@ pluginManagement {
   }
 }
 
-rootProject.name = "root"
+rootProject.name = "immutables-avaje-jsonb-example"
 include 'app'
 

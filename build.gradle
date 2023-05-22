@@ -4,7 +4,7 @@ plugins {
 }
 
 allprojects {
-  group = "immutable-avaje-jsonb-example"
+  group = "example"
   version = "0.0.1"
 
   repositories {
